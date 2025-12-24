@@ -37,3 +37,42 @@ The project was conceived as a **professional pipeline**, combining stem separat
 ---
 
 ## 🏗️ Architecture
+
+````
+audio-to-score/
+├── backend/
+│ ├── app/
+│ │ ├── api/
+│ │ ├── core/
+│ │ ├── export/
+│ │ ├── models/
+│ │ ├── music/
+│ │ └── score/
+│ └── requirements.txt
+│
+├── frontend/
+│ ├── public/
+│ └── src/
+│ ├── components/
+│ ├── hooks/
+│ ├── score/
+│ ├── services/
+│ └── styles/
+│
+├── workers/
+│ └── tasks/
+│
+├── storage/
+│ ├── uploads/
+│ ├── stems/
+│ ├── segments/
+│ ├── scores/
+│ └── exports/
+│
+├── docker/
+│
+├── docs/
+│
+└── docker-compose.yml
+
+````
