@@ -1,34 +1,39 @@
-# 🎼 Audio to Score
+# Audio to Score
 
-**Audio to Score** é uma plataforma completa para **converter áudio em partitura musical com alto grau de coerência e realismo**, respeitando **andamento (BPM), tonalidade, instrumentação, articulações, claves e vozes reais**.
+**Audio to Score** is a complete platform for **converting audio into musical scores with a high degree of coherence and realism**, respecting **tempo (BPM), sound, instrumentation, muscles, clefs, and real voices**.
 
-O projeto foi pensado como um **pipeline profissional**, unindo separação de stems, análise musical, quantização rítmica e geração de partituras editoriais.
-
----
-
-## ✨ Principais Funcionalidades
-
-- 🎧 Upload de áudio (WAV, MP3, FLAC)
-- 🎤 Separação de stems (vocais, instrumentos, etc.)
-- ✂️ Segmentação temporal do áudio
-- 🎼 Análise musical real:
-  - BPM real
-  - Tonalidade correta
-  - Compasso configurável
-- 🎹 Seleção de instrumentos por stem
-- 🧠 Regras de notação musical (legibilidade editorial)
-- 🎵 Quantização rítmica inteligente
-- 🎶 Separação de vozes (ex: piano mão direita / esquerda)
-- 🎻 Seleção automática de clave
-- 🎚️ Articulações automáticas (staccato, tenuto, acento)
-- 📄 Exportação em:
-  - MusicXML
-  - PDF
-  - MIDI
-- ⚙️ Processamento assíncrono com Celery + Redis
-- 🐳 Ambiente totalmente dockerizado
+The project was conceived as a **professional pipeline**, combining stem separation, musical analysis, rhythmic quantization, and the generation of editorial scores.
 
 ---
 
-## 🏗️ Arquitetura
+##Main Features
 
+- Audio upload (WAV, MP3, FLAC)
+- Stem separation (vocals, instruments, etc.)
+- Audio temporal segmentation
+- Real musical analysis:
+
+- Real BPM
+
+- Correct key
+
+- Configurable time signature
+- Instrument selection by stem
+- Musical notation rules (editorial readability)
+- Intelligent rhythmic quantization
+- Voice separation (e.g., right/left hand piano)
+- Automatic key selection
+- Automatic articulations (staccato, tenuto, accent)
+- Export to:
+
+- XML ​​Music
+
+- PDF
+
+- MIDI
+- Asynchronous processing with Celery + Redis
+- Fully dockerized environment
+
+---
+
+## 🏗️ Architecture
