@@ -1,0 +1,13 @@
+{
+  "instrument": "Piano",
+  "bpm": 120,
+  "key": "C Major",
+  "time_signature": "4/4",
+  "notes": [
+    {
+      "pitch": "C4",
+      "duration": 1.0,
+      "offset": 0.0
+    }
+  ]
+}

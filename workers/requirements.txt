@@ -1,0 +1,6 @@
+celery
+redis
+librosa
+numpy
+music21
+demucs

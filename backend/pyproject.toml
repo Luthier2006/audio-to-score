@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audio-to-score-backend"
+version = "1.0.0"
+description = "Backend para conversão realista de áudio em partitura musical"
+authors = [
+  { name = "Audio To Score" }
+]
+requires-python = ">=3.10"
+
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "pydantic",
+  "pydantic-settings",
+  "python-multipart",
+  "celery",
+  "redis",
+  "librosa",
+  "numpy",
+  "soundfile",
+  "scipy",
+  "music21",
+  "demucs",
+  "python-dotenv"
+]
+
+[tool.setuptools]
+packages = ["backend"]
