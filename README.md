@@ -1,4 +1,4 @@
-# Audio to Score
+# <h1 align="center">Audio to Score</h1>
 
 **Audio to Score** is a complete platform for **converting audio into musical scores with a high degree of coherence and realism**, respecting **tempo (BPM), sound, instrumentation, muscles, clefs, and real voices**.
 
@@ -6,7 +6,7 @@ The project was conceived as a **professional pipeline**, combining stem separat
 
 ---
 
-##Main Features
+## <h1>Main Features</h1>
 
 - Audio upload (WAV, MP3, FLAC)
 - Stem separation (vocals, instruments, etc.)
@@ -36,7 +36,7 @@ The project was conceived as a **professional pipeline**, combining stem separat
 
 ---
 
-## 🏗️ Architecture
+## <h1>Architecture</h1>
 
 ````
 audio-to-score/
@@ -75,4 +75,43 @@ audio-to-score/
 │
 └── docker-compose.yml
 
+````
+
+
+---
+
+---
+## <h1>Technology Stack</h1>
+
+### Backend
+- Python 3.10+
+- FastAPI
+- Music21
+- Librosa
+- Demucs
+- Celery + Redis
+
+### Frontend
+- React
+- TypeScript
+- Vite
+- Redux Toolkit
+- VexFlow / Verovio
+- WaveSurfer.js
+
+### Infrastructure
+- Docker
+- Docker Compose
+
+---
+
+## <h1>How to Run the Project</h1>
+
+### Prerequisites
+- Docker
+- Docker Compose
+
+### <h1>Getting Everything Up and Running</h1>
+````
+docker-compose up --build
 ````
